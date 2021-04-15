@@ -1,0 +1,78 @@
+.widget {
+    display:flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+
+span {
+    opacity: 0;
+}
+
+.mir {
+    background-image: url('../images/mirnps.jpeg');
+}
+
+.visa {
+    background-image: url('../images/visa.png');
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.master {
+    background-image: url('../images/mastercard.png');
+}
+
+.maestro {
+    background-image: url('../images/maestro.png');
+}
+
+.amex {
+    background-image: url('../images/amex.png');
+}
+
+.discover {
+    background-image: url('../images/discover.png');
+}
+
+.jcb {
+    background-image: url('../images/jcb.png');
+}
+
+.diners_club {
+    background-image: url('../images/diners-club.png');
+}
+
+.china_unionpay {
+    background-image: url('../images/union-pay.png');
+}
+
+.colored {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.valid {
+    color: green;
+    font-weight: 700;
+}
+
+.invalid {
+    color: red;
+    font-weight: 700;
+}
